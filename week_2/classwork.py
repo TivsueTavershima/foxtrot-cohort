@@ -6,25 +6,26 @@
 
 # No 1 answer here
 stored_value = 5
-search_input = 2
+search_value = 3
 
-Is_equal = stored_value == search_input
-print("is equal:", is_equal)
+equal_to = 5 == 3
+print("equal to:", search_value)
 
-not_equal = stored_value != search_input
-print("not equal:", not_equal)
+not_equal_to = 5 != 3
+print("not equal to:", search_value)
 
-less_than = stored_value < search_input
-print("less than:", less_than)
+less_than = 5 < 3
+print("lees than:", search_value)
 
-greater_than =  stored_value > input_value
-print("greater than:", greater_than)
+greater_than = 5 > 3
+print("greater than:", search_value)
 
-greater_and_equal_to = stored_value >= search_input
-print("greater and equal to:", greater_and_eqaul_to)
+graeter_than_and_equal_to = 5 >= 3
+print("greater than and equal to:", search_value)
 
-less_than_and_equal_to = stored_value <= search_input
-print("less than and equal to":, less_than_and_equal_to)
+less_than_and_equal_to = 5 <= 3
+print("less than and equal to:", search_value)
+
 
 # 2. Create two variables: stored_value = 12 and search_input = 12.
 #    Check if they are equal and print the result.
@@ -32,9 +33,10 @@ print("less than and equal to":, less_than_and_equal_to)
 
 # No 2 answer here
 stored_value = 12
-search_input = 12
-is_equal = stored_value == search_input
-print("is equal:", is_equal)
+search_value = 12
+
+equal_to = 12 == 12
+print("equal to:", search_value)
 
 # 3. Use comparison operators to check:
 #    - if 5 is greater than 10
@@ -44,6 +46,9 @@ print("is equal:", is_equal)
 
 # No 3 answer here
 
+compare= 5 > 10
+compare = 15 <= 20
+print(compare,compare)
 
 # 4. Use logical operators to check:
 #    - if a person's age is greater than or equal to 18 AND if they have a driver's license.
@@ -55,6 +60,13 @@ print("is equal:", is_equal)
 
 # No 4 answer here
 
+age = 20
+licence = "yes"
+
+is_driver_licence = age >= 18 and licence
+print(is_driver_licence)
+
+
 
 # 5. Use OR (||) to check if one of these is true:
 #    temperature = 35
@@ -64,6 +76,11 @@ print("is equal:", is_equal)
 
 # No 5 answer here
 
+temperature = 35
+raining = 'false'
+
+one_is_true = temperature or raining == True
+print(one_is_true)
 
 # 6. Use NOT to flip the value of a variable:
 #    Example:
@@ -71,7 +88,9 @@ print("is equal:", is_equal)
 #    Use NOT to make it True and print both values.
 
 # No 6 answer here
-
+are_you_okay = 'false'
+negate_value = not are_you_okay
+print("not",negate_value)
 
 # 7. Create 4 string variables:
 #    - One using single quotes
@@ -81,12 +100,20 @@ print("is equal:", is_equal)
 #    Print all of them.
 
 # No 7 answer here
+valuable1 = 'hello'
+valuable2 = "hi"
+valuable3 = '''how are you'''
+valuable4 = """i'm fine"""
+print(valuable1,valuable2,valuable3,valuable4)
 
 
 # 8. Write a sentence that uses \n for a new line and \t for a tab space.
 #    Print it and see how it looks.
 
 # No 8 answer here
+
+sentence = "hello sir, \n\thow are you"
+print(sentence)
 
 
 # 9. Use string methods:
@@ -99,6 +126,19 @@ print("is equal:", is_equal)
 
 # No 9 answer here
 
+name = ' Miracle '
+remove_space = name.strip()
+print(name)
+
+upper_case = name.upper()
+print(upper_case)
+
+lower_case = name.lower()
+print(lower_case)
+
+
+
+
 
 # 10. Do the following with strings:
 #     - Concatenate two strings, for example: "Python" + " Programming"
@@ -108,3 +148,14 @@ print("is equal:", is_equal)
 
 
 # No 10 answer here
+val = 'python'
+val1 = 'programming'
+
+concat = "python " + "programe"
+print(concat)
+
+print(f"my first test in {val} {val1}")
+
+me = name * 3
+print(me)
+
