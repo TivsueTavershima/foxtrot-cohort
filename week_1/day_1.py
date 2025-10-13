@@ -98,7 +98,7 @@ print("Concatenated String: ", concat)
 
 # Interpolation of Strings- passing in a value into a string through a placeholder
 # f-strings are used to embed expressions inside string literals, using curly braces {}.
-name = "Cosmas"
+name = "Tivsue"
 sent_1 = f"My name is {name}"
 print("F-string: ", sent_1)
 
